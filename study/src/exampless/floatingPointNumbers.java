@@ -14,6 +14,7 @@ public class floatingPointNumbers {
         System.out.println(roundedNumber.doubleValue());
         String formatted = String.format("%.2f", c);
         System.out.println(formatted);
+        System.out.println(Math.floor(c));
 
 
     }
