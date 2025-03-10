@@ -18,7 +18,7 @@ public class calculator {
             case "subtraction" -> System.out.println(a - b);
             case "division" -> System.out.println(a / b);
             case "multiplication" -> System.out.println(a * b);
-            default -> System.out.println("i don't understand this command.");
+            default -> System.out.println("Wrong command.Again!");
         }
 
 
