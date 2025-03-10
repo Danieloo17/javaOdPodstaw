@@ -8,7 +8,7 @@ public class swicz {
         System.out.println("Which color is the light?");
         String light = scanner.nextLine();
 
-        switch (light)  {
+        switch (light) {
             case "green" -> System.out.println("U can go!");
             case "yellow" -> System.out.println("Watch out!");
             case "red" -> System.out.println("STOP!");

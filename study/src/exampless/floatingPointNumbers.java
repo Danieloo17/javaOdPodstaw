@@ -9,7 +9,7 @@ public class floatingPointNumbers {
         double b = 1.5;
         double c = a / b;
 
-        System.out.println(Math.round(c*100)/100.0);
+        System.out.println(Math.round(c * 100) / 100.0);
         BigDecimal roundedNumber = new BigDecimal(c).setScale(2, RoundingMode.HALF_UP);
         System.out.println(roundedNumber.doubleValue());
         String formatted = String.format("%.2f", c);
